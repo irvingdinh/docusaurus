@@ -100,6 +100,12 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    plugins: [
+      [
+        'vercel-analytics',
+        {},
+      ]
+    ]
   } satisfies Preset.ThemeConfig,
 };
 
